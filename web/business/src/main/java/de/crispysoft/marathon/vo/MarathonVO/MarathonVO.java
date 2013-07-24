@@ -9,6 +9,10 @@ public class MarathonVO {
 
     private Long marathonId;
 
+    public MarathonVO(Long marathonId) {
+        this.marathonId = marathonId;
+    }
+
     public Long getMarathonId() {
         return marathonId;
     }

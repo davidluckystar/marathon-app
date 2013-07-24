@@ -24,7 +24,11 @@ public class MarathonService {
     @RequestMapping(method = RequestMethod.GET)
     @ResponseBody
     Set<MarathonVO> getAllMarathons() {
-        return new HashSet<MarathonVO>();
+        Set<MarathonVO> set = new HashSet<MarathonVO>();
+        set.add(new MarathonVO(123L));
+        set.add(new MarathonVO(53L));
+        set.add(new MarathonVO(2633L));
+        return set;
     }
 
 }

@@ -1,0 +1,25 @@
+header {
+    background: #000000;
+}
+
+.title-x {
+    font-size: 32px;
+}
+
+.white {
+    color: white;
+}
+
+nav {
+    font-size: 24px;
+}
+
+table {
+    font-size: 22px;
+}
+
+#marathons > table > tbody > tr.table-header {
+    background: #94A4C0;
+    color: white;
+    text-align: center;
+}

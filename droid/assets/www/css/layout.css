@@ -1,0 +1,42 @@
+header {
+    height: 50px;
+}
+
+header > p {
+    left: 10%;
+}
+
+header > span.icon32 {
+    margin: 8px;
+    float: right;
+}
+
+nav.menu {
+    height: 60px;
+    width: 100%;
+    display: table;
+    background: #4379ba;
+}
+
+nav.menu > ul {
+    display: table-row;
+}
+
+nav.menu > ul > li {
+    display: table-cell;
+    border-right: 1px solid #d1d1d1;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#marathons > table {
+    margin: 50px;
+    width: 90%;
+    /*border: 1px solid gray;*/
+}
+
+#marathons > table > tbody > tr {
+    line-height: 50px;
+    background: #fafafa;
+}

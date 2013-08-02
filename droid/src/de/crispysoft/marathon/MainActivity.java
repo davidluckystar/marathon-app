@@ -1,4 +1,4 @@
-package main.java.de.crispysoft.marathon;
+package de.crispysoft.marathon;
 
 import android.os.Bundle;
 import org.apache.cordova.DroidGap;

@@ -1,3 +1,8 @@
+/* body for development only */
+body {
+    width: 400px;
+}
+
 header {
     height: 50px;
 }
@@ -31,8 +36,7 @@ nav.menu > ul > li {
 }
 
 #marathons > table {
-    margin: 50px;
-    width: 90%;
+    width: 100%;
     /*border: 1px solid gray;*/
 }
 

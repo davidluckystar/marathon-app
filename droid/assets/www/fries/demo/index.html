@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+
+  <title>Marathon-app</title>
+
+  <link rel="shortcut icon" href="favicon.png"/>
+
+  <link rel="stylesheet" href="../lib/css/base.css">
+  <link rel="stylesheet" href="../lib/css/action-bars.css">
+  <link rel="stylesheet" href="../lib/css/chevrons.css">
+  <link rel="stylesheet" href="../lib/css/tabs.css">
+  <link rel="stylesheet" href="../lib/css/content.css">
+  <link rel="stylesheet" href="../lib/css/buttons.css">
+  <link rel="stylesheet" href="../lib/css/forms.css">
+  <link rel="stylesheet" href="../lib/css/lists.css">
+  <link rel="stylesheet" href="../lib/css/spinners.css">
+  <link rel="stylesheet" href="../lib/css/icomoon.css">
+  <link rel="stylesheet" href="../lib/css/stack.css">
+  <link rel="stylesheet" href="../lib/css/sliders.css">
+  <link rel="stylesheet" href="../lib/css/my.css">
+  <link rel="stylesheet" href="../lib/css/marathon-tabs.css">
+
+    <script type="text/javascript" charset="utf-8" src="../../jquery/jquery-1.9.1.js"></script>
+    <script type="text/javascript"
+         src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBV4xYyz4v-2kRolvdprv-efZLaKlwzD04&sensor=true"></script>
+    <script type="text/javascript" charset="utf-8" src="../lib/js/map.js"></script>
+
+</head>
+<body ontouchstart="">
+
+  <div class="page">
+    <header class="action-bar fixed-top">
+      <a href="#" class="app-icon action">
+        <i class="icon-chevron-right"></i>
+      </a>
+      <h1 class="title">Marathon-app</h1>
+      <ul class="actions pull-right">
+        <li><a href="contacts.html" class="action" title="Settings" data-transition="push"><i class="icon-settings"></i></a></li>
+      </ul>
+    </header>
+
+    <nav class="action-bar fixed-bottom">
+      <ul class="actions flex" data-overflow="false">
+        <li><a href="compose.html" class="action" title="Compose" data-transition="push"><i class="icon-new-message"></i></a></li>
+        <li><a href="contacts.html" class="action" title="Contacts" data-transition="push"><i class="icon-group"></i></a></li>
+        <li><a href="#" class="action" title="Refresh" data-ignore="true"><i class="icon-refresh"></i></a></li>
+      </ul>
+    </nav>
+
+      <nav class="tab-fixed-big">
+          <ul class="tab-inner">
+              <li class="active">
+                  <a href="#single" data-ignore="true">
+                      <span>single</span>
+                      <i class="icon-person"></i>
+                  </a>
+              </li>
+              <li>
+                  <a href="#tournament" data-ignore="true">
+                      <span>tournament</span>
+                      <i class="icon-group"></i>
+                  </a>
+              </li>
+              <li>
+                  <a href="#watch" data-ignore="true">
+                      <span>watch</span>
+                      <i class="icon-star-full"></i>
+                  </a>
+              </li>
+          </ul>
+      </nav>
+
+      <div class="content">
+          <div class="slider">
+              <ul>
+                  <li id="single" class="tab-item active">
+                      <div class="content inset">
+                          <h1 class="title">Your have no marathons</h1>
+                          <button class="btn">Create</button>
+                          <p>Run fast, breath deep, win other loosers</p>
+
+                      </div>
+                  </li>
+
+                  <li id="tournament" class="tab-item">
+                      <div class="content inset">
+                          <table class="table table-hover table-bordered table-condensed">
+                              <thead>
+                                  <th>Marathon</th>
+                                  <th>Distance</th>
+                                  <th>First guy</th>
+                                  <th></th>
+                              </thead>
+                              <tbody>
+                              <tr>
+                                  <td>BIG Friends marathon</td>
+                                  <td>12km</td>
+                                  <td>Marina Sputay</td>
+                                  <td>
+                                      <button class="btn-small">Watch</button>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td>Test test</td>
+                                  <td>42km</td>
+                                  <td>admin</td>
+                                  <td>
+                                      <button class="btn-small">Watch</button>
+                                  </td>
+                              </tr>
+                              </tbody>
+                          </table>
+                      </div>
+                  </li>
+
+                  <li id="watch" class="tab-item">
+                      <div class="content inset">
+                          <h2>Watch live!</h2>
+                          <button id="centerMap" class="btn">Center map</button>
+                          <div id="map_canvas"></div>
+                      </div>
+                  </li>
+              </ul>
+          </div>
+      </div>
+
+  </div>
+
+  <script src="../lib/js/stack.js"></script>
+  <script src="../lib/js/action-bars.js"></script>
+  <script src="../lib/js/spinners.js"></script>
+  <script src="../lib/js/tabs.js"></script>
+</body>
+</html>

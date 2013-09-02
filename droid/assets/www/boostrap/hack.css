@@ -1,0 +1,32 @@
+/*table tbody tr:hover td {*/
+    /*background-color: #E7FFF0;*/
+/*}*/
+
+
+table {
+    font-size: 20px;
+}
+
+nav {
+    font-size: 22px;
+}
+
+.nav > li {
+    float: left;
+}
+
+#mainTab > h3 {
+    color: #ffffff;
+}
+
+#mainTab ul.nav > li {
+    padding: 0px;
+    margin: 10px;
+}
+#mainTab ul.nav > li span.badge {
+    margin-left: 7px;
+}
+
+#createButton {
+    margin: 7px;
+}

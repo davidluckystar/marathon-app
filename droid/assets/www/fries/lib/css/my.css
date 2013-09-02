@@ -1,0 +1,22 @@
+.striped {
+    background-image: url('../img/stripe.png');
+}
+
+#single > div.content {
+    top: 80px;
+}
+
+#tournament > div.content {
+    top: 80px;
+}
+
+#watch > div.content {
+    top: 80px;
+}
+
+#map_canvas {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
